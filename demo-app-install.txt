@@ -1,0 +1,620 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+E:\dev\rails>rails new demo-app
+      create
+      create  README.md
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+         run  git init from "."
+Initialized empty Git repository in E:/dev/rails/demo-app/.git/
+      create  app
+      create  app/assets/config/manifest.js
+      create  app/assets/javascripts/application.js
+      create  app/assets/javascripts/cable.js
+      create  app/assets/stylesheets/application.css
+      create  app/channels/application_cable/channel.rb
+      create  app/channels/application_cable/connection.rb
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/jobs/application_job.rb
+      create  app/mailers/application_mailer.rb
+      create  app/models/application_record.rb
+      create  app/views/layouts/application.html.erb
+      create  app/views/layouts/mailer.html.erb
+      create  app/views/layouts/mailer.text.erb
+      create  app/assets/images/.keep
+      create  app/assets/javascripts/channels
+      create  app/assets/javascripts/channels/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  bin/update
+      create  bin/yarn
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/cable.yml
+      create  config/puma.rb
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/application_controller_renderer.rb
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/cors.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_framework_defaults_5_1.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/apple-touch-icon-precomposed.png
+      create  public/apple-touch-icon.png
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/fixtures/files
+      create  test/fixtures/files/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  test/system
+      create  test/system/.keep
+      create  test/application_system_test_case.rb
+      create  tmp
+      create  tmp/.keep
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor
+      create  vendor/.keep
+      create  package.json
+      remove  config/initializers/cors.rb
+      remove  config/initializers/new_framework_defaults_5_1.rb
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+Resolving dependencies....................................................
+Using rake 12.0.0
+Using concurrent-ruby 1.0.5
+Using i18n 0.8.6
+Using minitest 5.10.3
+Using thread_safe 0.3.6
+Using builder 3.2.3
+Using erubi 1.6.1
+Using mini_portile2 2.2.0
+Using rack 2.0.3
+Using nio4r 2.1.0
+Using websocket-extensions 0.1.2
+Using mime-types-data 3.2016.0521
+Using arel 8.0.0
+Using public_suffix 2.0.5
+Using bindex 0.5.0
+Using bundler 1.11.2
+Using byebug 9.0.6
+Using mini_mime 0.1.4
+Using ffi 1.9.18
+Using coffee-script-source 1.12.2
+Using execjs 2.7.0
+Using method_source 0.8.2
+Using thor 0.20.0
+Using multi_json 1.12.1
+Installing puma 3.10.0 with native extensions
+
+Gem::InstallError: The 'puma' native gem requires installed build tools.
+
+Please update your PATH to include build tools or download the DevKit
+from 'http://rubyinstaller.org/downloads' and follow the instructions
+at 'http://github.com/oneclick/rubyinstaller/wiki/Development-Kit'
+Using rb-fsevent 0.10.2
+Using rubyzip 1.2.1
+Using tilt 2.0.8
+Using sqlite3 1.3.13
+Using turbolinks-source 5.0.3
+Using tzinfo 1.2.3
+Using nokogiri 1.8.0
+Using rack-test 0.6.3
+Using sprockets 3.7.1
+Using websocket-driver 0.6.5
+Using mime-types 3.1
+Using addressable 2.5.1
+Using childprocess 0.7.1
+Using rb-inotify 0.9.10
+Using coffee-script 2.4.1
+Using uglifier 3.2.0
+An error occurred while installing puma (3.10.0), and Bundler cannot continue.
+Make sure that `gem install puma -v '3.10.0'` succeeds before bundling.
+
+E:\dev\rails>d:
+
+D:\RailsInstaller>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 225F-1041
+
+ Directory of D:\RailsInstaller
+
+05/16/2017  08:14 AM    <DIR>          .
+05/16/2017  08:14 AM    <DIR>          ..
+05/16/2017  08:13 AM           261,889 cacert.pem
+05/16/2017  08:19 AM             2,343 current_path.cmd
+10/06/2016  01:46 PM             4,009 current_set.cmd
+07/05/2016  07:44 AM    <DIR>          DevKit
+07/05/2016  07:42 AM    <DIR>          Git
+10/06/2016  01:43 PM    <DIR>          Ruby2.2.0
+07/05/2016  07:44 AM    <DIR>          scripts
+07/05/2016  07:44 AM         4,402,641 unins000.dat
+07/05/2016  07:41 AM           722,670 unins000.exe
+               5 File(s)      5,393,552 bytes
+               6 Dir(s)  192,661,114,880 bytes free
+
+D:\RailsInstaller>current_set.cmd
+
+D:\RailsInstaller>ALLUSERSPROFILE=C:\ProgramData
+'ALLUSERSPROFILE' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>APPDATA=C:\Users\martind\AppData\Roaming
+'APPDATA' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>CommonProgramFiles=C:\Program Files\Common Files
+'CommonProgramFiles' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+'CommonProgramFiles' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>CommonProgramW6432=C:\Program Files\Common Files
+'CommonProgramW6432' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>COMPUTERNAME=M6800
+'COMPUTERNAME' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>ComSpec=C:\WINDOWS\system32\cmd.exe
+'ComSpec' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>DOCKER_TOOLBOX_INSTALL_PATH=d:\Program Files\Docker Toolbox
+'DOCKER_TOOLBOX_INSTALL_PATH' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>FP_NO_HOST_CHECK=NO
+'FP_NO_HOST_CHECK' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>HOMEDRIVE=C:
+'HOMEDRIVE' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>HOMEPATH=\Users\martind
+'HOMEPATH' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>JAVA_HOME=D:\Program Files\java
+'JAVA_HOME' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>LOCALAPPDATA=C:\Users\martind\AppData\Local
+'LOCALAPPDATA' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>LOGONSERVER=\\M6800
+'LOGONSERVER' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>NUMBER_OF_PROCESSORS=8
+'NUMBER_OF_PROCESSORS' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>OS=Windows_NT
+'OS' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>Path=C:\Program Files\Docker\Docker\Resources\bin;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Program Files\Dell\DW WLAN Card;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;D:\Program Files\Microsoft SQL Server\120\DTS\Binn\;D:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;D:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;D:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;c:\Program Files\Microsoft\Web Platform Installer\;C:\Python27\;D:\HashiCorp\Vagrant\bin;D:\Program Files\Oracle\VirtualBox;C:\Program Files (x86)\Fuse\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Skype\Phone\;C:\Users\martind\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;D:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;D:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;D:\RailsInstaller\Git\cmd;D:\RailsInstaller\Ruby2.2.0\bin;d:\Ruby22-x64\bin;C:\Python27\;C:\Users\martind\AppData\Local\atom\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\martind\AppData\Local\.meteor\;C:\Users\martind\AppData\Roaming\npm;C:\Users\martind\AppData\Local\Microsoft\WindowsApps;C:\Users\martind\AppData\Local\nylas\bin
+
+D:\RailsInstaller>PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+'PATHEXT' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>PROCESSOR_ARCHITECTURE=AMD64
+'PROCESSOR_ARCHITECTURE' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+'PROCESSOR_IDENTIFIER' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>PROCESSOR_LEVEL=6
+'PROCESSOR_LEVEL' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>PROCESSOR_REVISION=3c03
+'PROCESSOR_REVISION' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>ProgramData=C:\ProgramData
+'ProgramData' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>ProgramFiles=C:\Program Files
+'ProgramFiles' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>ProgramFiles(x86)=C:\Program Files (x86)
+'ProgramFiles' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>ProgramW6432=C:\Program Files
+'ProgramW6432' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>PROMPT=$P$G
+
+D:\RailsInstaller>PSModulePath=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\PowerShell\Modules\
+'PSModulePath' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>PUBLIC=C:\Users\Public
+'PUBLIC' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>SESSIONNAME=Console
+'SESSIONNAME' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>SystemDrive=C:
+'SystemDrive' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>SystemRoot=C:\WINDOWS
+'SystemRoot' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>TEMP=c:\temp\
+'TEMP' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>TMP=c:\tmp\
+'TMP' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>USERDOMAIN=M6800
+'USERDOMAIN' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>USERDOMAIN_ROAMINGPROFILE=M6800
+'USERDOMAIN_ROAMINGPROFILE' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>USERNAME=martind
+'USERNAME' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>USERPROFILE=C:\Users\martind
+'USERPROFILE' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>VBOX_MSI_INSTALL_PATH=d:\Program Files\Oracle\VirtualBox\
+'VBOX_MSI_INSTALL_PATH' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>VS110COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+'VS110COMNTOOLS' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>VS120COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+'VS120COMNTOOLS' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>VS140COMNTOOLS=D:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+'VS140COMNTOOLS' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>windir=C:\WINDOWS
+'windir' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RailsInstaller>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 225F-1041
+
+ Directory of D:\RailsInstaller
+
+05/16/2017  08:14 AM    <DIR>          .
+05/16/2017  08:14 AM    <DIR>          ..
+05/16/2017  08:13 AM           261,889 cacert.pem
+05/16/2017  08:19 AM             2,343 current_path.cmd
+10/06/2016  01:46 PM             4,009 current_set.cmd
+07/05/2016  07:44 AM    <DIR>          DevKit
+07/05/2016  07:42 AM    <DIR>          Git
+10/06/2016  01:43 PM    <DIR>          Ruby2.2.0
+07/05/2016  07:44 AM    <DIR>          scripts
+07/05/2016  07:44 AM         4,402,641 unins000.dat
+07/05/2016  07:41 AM           722,670 unins000.exe
+               5 File(s)      5,393,552 bytes
+               6 Dir(s)  192,661,114,880 bytes free
+
+D:\RailsInstaller>cd DevKit
+
+D:\RailsInstaller\DevKit>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 225F-1041
+
+ Directory of D:\RailsInstaller\DevKit
+
+07/05/2016  07:44 AM    <DIR>          .
+07/05/2016  07:44 AM    <DIR>          ..
+07/05/2016  07:43 AM    <DIR>          bin
+07/05/2016  07:44 AM                29 config.yml
+02/25/2013  12:51 AM               297 devkitvars.bat
+02/25/2013  12:51 AM               361 devkitvars.ps1
+02/25/2013  12:51 AM            10,232 dk.rb
+07/05/2016  07:43 AM    <DIR>          etc
+07/05/2016  07:43 AM    <DIR>          include
+07/05/2016  07:43 AM    <DIR>          lib
+07/12/2009  04:34 AM             2,238 m.ico
+07/05/2016  07:43 AM    <DIR>          mingw
+09/29/2010  09:48 AM             7,167 msys.bat
+07/12/2009  04:34 AM            37,758 msys.ico
+07/05/2016  07:44 AM    <DIR>          postinstall
+06/19/2016  12:15 PM    <DIR>          sbin
+06/19/2016  12:15 PM    <DIR>          share
+               7 File(s)         58,082 bytes
+              10 Dir(s)  192,661,114,880 bytes free
+
+D:\RailsInstaller\DevKit>devkitvars.bat
+Adding the DevKit to PATH...
+
+D:\RailsInstaller\DevKit>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 225F-1041
+
+ Directory of D:\RailsInstaller\DevKit
+
+07/05/2016  07:44 AM    <DIR>          .
+07/05/2016  07:44 AM    <DIR>          ..
+07/05/2016  07:43 AM    <DIR>          bin
+07/05/2016  07:44 AM                29 config.yml
+02/25/2013  12:51 AM               297 devkitvars.bat
+02/25/2013  12:51 AM               361 devkitvars.ps1
+02/25/2013  12:51 AM            10,232 dk.rb
+07/05/2016  07:43 AM    <DIR>          etc
+07/05/2016  07:43 AM    <DIR>          include
+07/05/2016  07:43 AM    <DIR>          lib
+07/12/2009  04:34 AM             2,238 m.ico
+07/05/2016  07:43 AM    <DIR>          mingw
+09/29/2010  09:48 AM             7,167 msys.bat
+07/12/2009  04:34 AM            37,758 msys.ico
+07/05/2016  07:44 AM    <DIR>          postinstall
+06/19/2016  12:15 PM    <DIR>          sbin
+06/19/2016  12:15 PM    <DIR>          share
+               7 File(s)         58,082 bytes
+              10 Dir(s)  192,661,114,880 bytes free
+
+D:\RailsInstaller\DevKit>e:
+
+E:\dev\rails>start .
+
+E:\dev\rails>rails new demo-app
+      create
+      create  README.md
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+         run  git init from "."
+Initialized empty Git repository in E:/dev/rails/demo-app/.git/
+      create  app
+      create  app/assets/config/manifest.js
+      create  app/assets/javascripts/application.js
+      create  app/assets/javascripts/cable.js
+      create  app/assets/stylesheets/application.css
+      create  app/channels/application_cable/channel.rb
+      create  app/channels/application_cable/connection.rb
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/jobs/application_job.rb
+      create  app/mailers/application_mailer.rb
+      create  app/models/application_record.rb
+      create  app/views/layouts/application.html.erb
+      create  app/views/layouts/mailer.html.erb
+      create  app/views/layouts/mailer.text.erb
+      create  app/assets/images/.keep
+      create  app/assets/javascripts/channels
+      create  app/assets/javascripts/channels/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  bin/update
+      create  bin/yarn
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/cable.yml
+      create  config/puma.rb
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/application_controller_renderer.rb
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/cors.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_framework_defaults_5_1.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/apple-touch-icon-precomposed.png
+      create  public/apple-touch-icon.png
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/fixtures/files
+      create  test/fixtures/files/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  test/system
+      create  test/system/.keep
+      create  test/application_system_test_case.rb
+      create  tmp
+      create  tmp/.keep
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor
+      create  vendor/.keep
+      create  package.json
+      remove  config/initializers/cors.rb
+      remove  config/initializers/new_framework_defaults_5_1.rb
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+Resolving dependencies....................................................
+Using rake 12.0.0
+Using concurrent-ruby 1.0.5
+Using i18n 0.8.6
+Using minitest 5.10.3
+Using thread_safe 0.3.6
+Using builder 3.2.3
+Using erubi 1.6.1
+Using mini_portile2 2.2.0
+Using rack 2.0.3
+Using nio4r 2.1.0
+Using websocket-extensions 0.1.2
+Using mime-types-data 3.2016.0521
+Using arel 8.0.0
+Using public_suffix 2.0.5
+Using bindex 0.5.0
+Using bundler 1.11.2
+Using byebug 9.0.6
+Using mini_mime 0.1.4
+Using ffi 1.9.18
+Using coffee-script-source 1.12.2
+Using execjs 2.7.0
+Using method_source 0.8.2
+Using thor 0.20.0
+Using multi_json 1.12.1
+Installing puma 3.10.0 with native extensions
+Using rb-fsevent 0.10.2
+Using rubyzip 1.2.1
+Using tilt 2.0.8
+Using sqlite3 1.3.13
+Using turbolinks-source 5.0.3
+Using tzinfo 1.2.3
+Using nokogiri 1.8.0
+Using rack-test 0.6.3
+Using sprockets 3.7.1
+Using websocket-driver 0.6.5
+Using mime-types 3.1
+Using addressable 2.5.1
+Using childprocess 0.7.1
+Using rb-inotify 0.9.10
+Using coffee-script 2.4.1
+Using uglifier 3.2.0
+Using turbolinks 5.0.1
+Using activesupport 5.1.3
+Using tzinfo-data 1.2017.2
+Using loofah 2.0.3
+Using xpath 2.1.0
+Using mail 2.6.6
+Using selenium-webdriver 3.5.1
+Using sass-listen 4.0.0
+Using rails-dom-testing 2.0.3
+Using globalid 0.4.0
+Using activemodel 5.1.3
+Using jbuilder 2.7.0
+Using rails-html-sanitizer 1.0.3
+Using capybara 2.15.1
+Using sass 3.5.1
+Using activejob 5.1.3
+Using activerecord 5.1.3
+Using actionview 5.1.3
+Using actionpack 5.1.3
+Using actioncable 5.1.3
+Using actionmailer 5.1.3
+Using railties 5.1.3
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.2.2
+Using web-console 3.5.1
+Using rails 5.1.3
+Using sass-rails 5.0.6
+Bundle complete! 13 Gemfile dependencies, 68 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+E:\dev\rails>
