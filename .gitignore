@@ -21,3 +21,10 @@
 /yarn-error.log
 
 .byebug_history
+
+# (mpd) the following are noted in the book as additions
+doc/api
+doc/app
+*.swp
+*~
+.DS_Source
